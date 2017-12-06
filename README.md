@@ -3,11 +3,11 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: This strategy allows to reduce the possible values within a unit by enforcing the constraint that there cannot be repeated numbers. Therefore if there exist two boxes with the same pair of possible values within the same two units, each and one of those two numbers have to be the solution for the the pair of boxes, and the search space is reduced because those two numbers can be disregarded as solutions for all boxes within the same units.
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: This strategy finds the sudoku solution by eliminating possible values that do not comply with the constraints of sudoku rules. With help of the Naked Twins, Only Choice and Elimination methods, the algorithm reduces the possible values for the sudoku's box by eliminating numbers that do not comply with the constraints until we are left with the only possible solutions.
 
 ### Install
 
