@@ -1,3 +1,6 @@
+
+<img src="https://github.com/reyesm93/AI-Sudoku-Solver/blob/master/README-image.png" width="400">
+
 # Artificial Intelligence Nanodegree
 ## Introductory Project: Diagonal Sudoku Solver
 
